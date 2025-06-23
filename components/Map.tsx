@@ -1,5 +1,6 @@
 import Mapbox, { Camera, LocationPuck, MapView } from '@rnmapbox/maps';
-
+import { useEffect, useState } from 'react';
+import { createClient } from '@supabase/supabase-js';
 import LineRoute from './LineRoute';
 import ScooterMarkers from './ScooterMarkers';
 
